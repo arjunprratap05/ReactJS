@@ -10,7 +10,7 @@ function Login() {
     const handleSubmit = (e) => {
         e.preventDefault()
         setUser({username, password})
-    }
+    } 
   return (
     <div>
         <h2>Login</h2>
